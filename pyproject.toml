@@ -10,3 +10,6 @@ dependencies = [
     "pydantic>=2.13.5",
     "python-dotenv>=1.2.3",
 ]
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13"]
+build-backend = "uv_build"
