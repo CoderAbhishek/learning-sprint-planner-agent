@@ -5,11 +5,20 @@ build/
 dist/
 wheels/
 *.egg-info
+*.py[cod]
+*.pyo
 
 # Virtual environments
 .venv
 
+# Environment variables
 .env
+
+# Testing
+.pytest_cache/
+
+# IDE
+.vscode/
 
 # Practice / learning files
 src/learning_sprint_planner_agent/practice/
