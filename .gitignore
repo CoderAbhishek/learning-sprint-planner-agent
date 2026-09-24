@@ -10,3 +10,6 @@ wheels/
 .venv
 
 .env
+
+# Practice / learning files
+src/learning_sprint_planner_agent/practice/
